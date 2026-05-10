@@ -2,28 +2,27 @@ export default function Home() {
   return (
     <main
       style={{
-        backgroundColor: "#050505",
+        background: "#050505",
         color: "#d4af37",
         minHeight: "100vh",
         padding: "40px",
-        fontFamily: "serif",
         textAlign: "center",
+        fontFamily: "serif",
       }}
     >
       <img
         src="/capa.jpg"
-        alt="Ogbe e os Omo"
+        alt="OGBE E OS OMO"
         style={{
           width: "100%",
           maxWidth: "500px",
           borderRadius: "20px",
-          boxShadow: "0 0 30px rgba(212,175,55,0.4)",
         }}
       />
 
       <h1
         style={{
-          fontSize: "4rem",
+          fontSize: "60px",
           marginTop: "30px",
         }}
       >
@@ -32,55 +31,41 @@ export default function Home() {
 
       <p
         style={{
-          fontSize: "1.3rem",
           maxWidth: "900px",
           margin: "30px auto",
           lineHeight: "2",
+          fontSize: "20px",
           color: "#f5e6a8",
         }}
       >
-        “Os traços sagrados representam o reconhecimento do Odù
+        Os traços sagrados representam o reconhecimento do Odù
         na encruzilhada entre Òrun e Ayé.
         São marcas ancestrais da consciência,
         do destino e da travessia espiritual entre o invisível
-        e o visível.”
+        e o visível.
       </p>
 
-      <div
-        style={{
-          marginTop: "40px",
-          lineHeight: "2",
-          fontSize: "1.2rem",
-        }}
-      >
+      <div style={{ lineHeight: "2", fontSize: "22px" }}>
         <p>Marco Rodrigues</p>
         <p>Áwọ Ifábúnmí Fátúmbí</p>
         <p>Àdíṣá Mákọnráwálẹ</p>
       </div>
 
-      <div
-        style={{
-          marginTop: "50px",
-          fontSize: "2rem",
-          fontWeight: "bold",
-        }}
-      >
+      <h2 style={{ marginTop: "40px", fontSize: "40px" }}>
         R$ 88,88
-      </div>
+      </h2>
 
       <a
         href="https://wa.me/5561998830914"
-        target="_blank"
         style={{
           display: "inline-block",
-          marginTop: "40px",
-          backgroundColor: "#d4af37",
-          color: "#000",
+          marginTop: "30px",
           padding: "18px 35px",
+          background: "#d4af37",
+          color: "#000",
           borderRadius: "12px",
           textDecoration: "none",
           fontWeight: "bold",
-          fontSize: "1.1rem",
         }}
       >
         Comprar Agora
@@ -88,7 +73,7 @@ export default function Home() {
 
       <div
         style={{
-          marginTop: "70px",
+          marginTop: "60px",
           opacity: 0.8,
           lineHeight: "2",
         }}
