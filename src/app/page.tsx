@@ -11,7 +11,7 @@ export default function Home() {
       }}
     >
       <img
-        src="/capa.jpg"
+       src="/capa.pdf.jpg"
         alt="OGBE E OS OMO"
         style={{
           width: "100%",
