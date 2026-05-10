@@ -1,65 +1,103 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <main
+      style={{
+        backgroundColor: "#050505",
+        color: "#d4af37",
+        minHeight: "100vh",
+        padding: "40px",
+        fontFamily: "serif",
+        textAlign: "center",
+      }}
+    >
+      <img
+        src="/capa.jpg"
+        alt="Ogbe e os Omo"
+        style={{
+          width: "100%",
+          maxWidth: "500px",
+          borderRadius: "20px",
+          boxShadow: "0 0 30px rgba(212,175,55,0.4)",
+        }}
+      />
+
+      <h1
+        style={{
+          fontSize: "4rem",
+          marginTop: "30px",
+        }}
+      >
+        OGBE E OS OMO
+      </h1>
+
+      <p
+        style={{
+          fontSize: "1.3rem",
+          maxWidth: "900px",
+          margin: "30px auto",
+          lineHeight: "2",
+          color: "#f5e6a8",
+        }}
+      >
+        “Os traços sagrados representam o reconhecimento do Odù
+        na encruzilhada entre Òrun e Ayé.
+        São marcas ancestrais da consciência,
+        do destino e da travessia espiritual entre o invisível
+        e o visível.”
+      </p>
+
+      <div
+        style={{
+          marginTop: "40px",
+          lineHeight: "2",
+          fontSize: "1.2rem",
+        }}
+      >
+        <p>Marco Rodrigues</p>
+        <p>Áwọ Ifábúnmí Fátúmbí</p>
+        <p>Àdíṣá Mákọnráwálẹ</p>
+      </div>
+
+      <div
+        style={{
+          marginTop: "50px",
+          fontSize: "2rem",
+          fontWeight: "bold",
+        }}
+      >
+        R$ 88,88
+      </div>
+
+      <a
+        href="https://wa.me/5561998830914"
+        target="_blank"
+        style={{
+          display: "inline-block",
+          marginTop: "40px",
+          backgroundColor: "#d4af37",
+          color: "#000",
+          padding: "18px 35px",
+          borderRadius: "12px",
+          textDecoration: "none",
+          fontWeight: "bold",
+          fontSize: "1.1rem",
+        }}
+      >
+        Comprar Agora
+      </a>
+
+      <div
+        style={{
+          marginTop: "70px",
+          opacity: 0.8,
+          lineHeight: "2",
+        }}
+      >
+        <p>Instituto Omo Ifá</p>
+        <p>institutoomoifa@gmail.com</p>
+        <p>WhatsApp: (61) 99883-0914</p>
+        <p>WhatsApp: (62) 99314-2106</p>
+      </div>
+    </main>
   );
 }
